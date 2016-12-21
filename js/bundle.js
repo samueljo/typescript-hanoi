@@ -61,10 +61,8 @@
 	"use strict";
 	var Game = (function () {
 	    function Game() {
-	    }
-	    Game.prototype.contsructor = function () {
 	        this.towers = [[3, 2, 1], [], []];
-	    };
+	    }
 	    Game.prototype.isValidMove = function (startTowerIdx, endTowerIdx) {
 	        var startTower = this.towers[startTowerIdx];
 	        var endTower = this.towers[endTowerIdx];

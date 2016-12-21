@@ -1,7 +1,7 @@
 export default class Game {
   towers: number[][];
 
-  contsructor() {
+  constructor() {
     this.towers = [[3, 2, 1], [], []];
   }
 
