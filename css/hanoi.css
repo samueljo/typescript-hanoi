@@ -80,3 +80,14 @@ li.disk-3 {
 .game-over li {
   background: green;
 }
+
+.footer {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.link {
+  margin: 0 10px;
+}
